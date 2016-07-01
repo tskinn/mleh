@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle mleh",
+        "command": "mleh:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "mleh",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "mleh:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
