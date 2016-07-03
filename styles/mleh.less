@@ -7,9 +7,28 @@
 .mleh {
   height: 300px;
   width: auto;
-  background-color: @inset-panel-background-color;
-}
+  background-color: @app-background-color;
+  z-index: 100;
 
-.message {
-
+  .input-container {
+    margin: 0 1px 0.75em;
+    height: 20px;
+    background-color: black;
+  }
+  .info {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+  }
+  .list-group {
+    .list-item {
+      height: 40px;
+      width: 40px;
+      background-color: black;
+    }
+    .list-item-label {
+      width: 20px;
+      background-color: black;
+    }
+  }
 }
