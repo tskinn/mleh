@@ -2,7 +2,7 @@
   "name": "mleh",
   "main": "./lib/mleh",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Atom incremental completion and selection narrowing framework",
   "keywords": [
   ],
   "activationCommands": {
@@ -12,6 +12,14 @@
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.8 <2.0.0"
+  },
+  "providedServices": {
+    "mleh": {
+      "drescription": "Emacs' helm for atom",
+      "versions": {
+        "0.0.0": "mlehV0"
+      }
+    }
   },
   "dependencies": {
     "react": "^15.0.1",
