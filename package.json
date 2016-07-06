@@ -5,9 +5,6 @@
   "description": "Atom incremental completion and selection narrowing framework",
   "keywords": [
   ],
-  "activationCommands": {
-    "atom-workspace": "mleh:toggle"
-  },
   "repository": "https://github.com/tskinn/mleh",
   "license": "MIT",
   "engines": {
@@ -17,7 +14,7 @@
     "mleh": {
       "drescription": "Emacs' helm for atom",
       "versions": {
-        "0.0.0": "mlehV0"
+        "0.0.0": "provideMleh"
       }
     }
   },
