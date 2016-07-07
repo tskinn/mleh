@@ -5,7 +5,9 @@
 @import "ui-variables";
 
 .mleh {
-  height: 300px;
+  // position: relative;
+  // bottom: 0px;
+  // height: 300px;
   width: auto;
   background-color: @app-background-color;
 
@@ -22,17 +24,18 @@
     background-color: red;
   }
   .list-group {
-
-    height: 230px;
-
+    overflow: auto;
+    max-height: 180px;
     .list-item {
-      float: left;
-      width: 100%;
       background-color: green;
     }
     .list-item-label {
       width: 20px;
       background-color: purple;
+    }
+    .list-item-info {
+      float: left;
+      width: 100%;
     }
   }
 }
