@@ -1,5 +1,12 @@
 {
   "atom-workspace": {
     "ctrl-alt-o": "mleh:toggle"
+  },
+  ".mleh atom-text-editor": {
+    "tab": "mleh:autocomplete" ,
+    "up": "mleh:move-cursor-up",
+    "down": "mleh:move-cursor-down",
+    "ctrl-p": "mleh:move-cursor-up",
+    "ctrl-n": "mleh:move-cursor-down"
   }
 }
