@@ -14,7 +14,6 @@
   .input-container {
     margin: 5px 5px;
 
-    background-color: ;
     position: relative;
 
   }
@@ -26,6 +25,7 @@
   .list-group {
     overflow: auto;
     max-height: 180px;
+    content: inherit;
     .list-item {
       background-color: green;
     }
@@ -36,6 +36,9 @@
     .list-item-info {
       float: left;
       width: 100%;
+    }
+    .selected {
+      background-color: @background-color-selected;
     }
   }
 }
