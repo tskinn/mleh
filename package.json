@@ -3,9 +3,6 @@
   "main": "./lib/mleh",
   "version": "0.0.0",
   "description": "Atom incremental completion and selection narrowing framework",
-  "activationCommands": {
-    "atom-workspace": "mleh:toggle"
-  },
   "keywords": [
   ],
   "repository": "https://github.com/tskinn/mleh",
