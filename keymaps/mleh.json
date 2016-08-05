@@ -10,6 +10,6 @@
     "down": "mleh:move-cursor-down",
     "ctrl-p": "mleh:move-cursor-up",
     "ctrl-n": "mleh:move-cursor-down",
-    "enter": "mleh:goto"
+    "enter": "mleh:action-main"
   }
 }
