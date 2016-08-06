@@ -11,39 +11,41 @@
   width: auto;
   background-color: @app-background-color;
 
-  .input-container {
+  .mleh-input-container {
     margin: 5px 5px;
-
+	 background-color: @app-background-color;
     position: relative;
+	 width: 100%;
+	 border: none;
 
   }
-  .info {
+  .mleh-info {
     margin: 5px 2px;
     width: 100%;
     background-color: red;
   }
-  .list-group {
+  .mleh-list-group {
     overflow: auto;
     height: 420px;
     content: inherit;
-    .list-item {
+    .mleh-list-item {
       background-color: green;
     }
-    .list-item-label {
+    .mleh-list-item-label {
       width: 20px;
       background-color: purple;
     }
-    .list-item-info {
+    .mleh-list-item-info {
       float: left;
       width: 100%;
     }
 
-    .mleh-selected {
+    .mleh-selected-item {
       background-color: @background-color-selected;
     }
   }
 }
 
-#mleh-selectedItem {
+.mleh-current-item {
   background-color: @background-color-selected;
 }
