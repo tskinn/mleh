@@ -2,9 +2,10 @@
   "atom-workspace": {
     "ctrl-alt-m": "mleh:toggle-command",
     "ctrl-alt-f": "mleh:toggle-file",
-    "ctrl-alt-o": "mleh:toggle-occur"
+    "ctrl-alt-o": "mleh:toggle-occur",
+    "enter": "mleh:action-main"
   },
-  ".mleh atom-text-editor": {
+  ".mleh input": {
     "tab": "mleh:autocomplete" ,
     "up": "mleh:move-cursor-up",
     "down": "mleh:move-cursor-down",
