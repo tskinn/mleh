@@ -5,50 +5,51 @@
 @import "ui-variables";
 
 .mleh {
-  // position: relative;
-  // bottom: 0px;
-  // height: 300px;
-  width: auto;
-  background-color: @app-background-color;
+    // position: relative;
+    // bottom: 0px;
+    // height: 300px;
+    width: auto;
+    background-color: @app-background-color;
 
-  .mleh-input-container {
-    margin: 5px 5px;
-	 background-color: @app-background-color;
-    position: relative;
-	 width: 100%;
-	 border: none;
+    .mleh-input-container {
+	margin: 5px 5px;
+	background-color: @app-background-color;
+	position: relative;
+	width: 100%;
+	border: none;
 
-  }
-  .mleh-info {
-    margin: 5px 2px;
-    width: 100%;
-    background-color: red;
-  }
-  .mleh-list-group {
+    }
+    .mleh-info {
+	margin: 5px 2px;
+	width: 100%;
+	background-color: @background-color-warning;
+	color: @text-color-warning;
+    }
+    .mleh-list-group {
 	// overflow: auto;
-    height: 360px;
-    content: inherit;
-    .mleh-list-item {
-      background-color: green;
-    }
-    .mleh-list-item-label {
-      width: 20px;
-      background-color: purple;
-    }
-    .mleh-list-item-info {
-//      float: left;
-      width: 100%;
-    }
-	 .mleh-strong {
-		  color: purple;
-	 }
+	height: 360px;
+	content: inherit;
+	.mleh-list-item {
+	    background-color: @background-color-selected;
+	}
+	.mleh-list-item-label {
+	    width: 20px;
+	    background-color: purple;
+	}
+	.mleh-list-item-info {
+	    //      float: left;
+	    width: 100%;
+	}
+	.mleh-strong {
+	    color: white;
+	}
 
-    .mleh-selected-item {
-      background-color: @background-color-selected;
+	.mleh-selected-item {
+	    background-color: @background-color-selected;
+	}
     }
-  }
 }
 
 .mleh-current-item {
-  background-color: @background-color-selected;
+    background-color: @background-color-selected;
 }
